@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tellcut · Privacy Policy</title>
+<style>
+  :root { --bg: #f6f5f2; --fg: #1d1e20; --muted: #5d5a54; --accent: #b97d22; --card: #ffffff; --line: #e3e0da; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121314; --fg: #ece8e1; --muted: #a39e95; --accent: #e8a33d; --card: #1a1b1d; --line: #33353a; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; } h2 { font-size: 19px; margin: 28px 0 6px; }
+  .muted { color: var(--muted); } a { color: var(--accent); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 4px 22px 18px; margin-top: 24px; }
+  nav a { margin-right: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tellcut — Privacy Policy</h1>
+  <p class="muted">Last updated: October 30, 2026 / 30 Ekim 2026 · <nav style="display:inline"><a href="#en">English</a><a href="#tr">Türkçe</a></nav></p>
+
+  <section class="card" id="en">
+    <h2>Summary</h2>
+    <p>Tellcut is a desktop photo, video and audio editor. There is <b>no account</b>, no advertising and no
+      tracking. Your files are edited on your own computer. Only requests you send to the optional AI assistant leave
+      your device.</p>
+
+    <h2>Files and editing</h2>
+    <p>The images, videos, audio files and projects you open are processed locally on your computer. Background removal and
+      object selection use AI models that run <b>on your device</b>; those images are not uploaded anywhere.</p>
+
+    <h2>Data stored on your computer</h2>
+    <p>Settings (language, folders, recent projects), an anonymous AI session token (encrypted with Windows DPAPI) and an
+      error log are kept in <code>%APPDATA%\MedyaDuzenleyici</code>. Temporary working files are deleted when the app closes.
+      Uninstalling the app or deleting that folder removes them.</p>
+
+    <h2>AI assistant</h2>
+    <p>When you write a request to the AI assistant, the app sends to our server (Supabase, Frankfurt, EU): your
+      message, recent messages of the current chat, a short technical description of the open project (media type, size,
+      duration, layer names, timeline) and — only when the assistant needs to look — a reduced screenshot of the preview.
+      The server forwards this to the AI provider <b>DeepSeek</b> (servers in China) to produce the answer and returns it to
+      the app. We do not use your requests for advertising and do not sell them. DeepSeek processes the data under its own
+      privacy policy (<a href="https://www.deepseek.com/">deepseek.com</a>).</p>
+    <p>To apply the daily usage limit, the server keeps an anonymous session ID and the number of requests per day. It does
+      not store the content of your requests. If you do not use the AI assistant, nothing is sent.</p>
+
+    <h2>Children</h2>
+    <p>The app does not knowingly collect personal data from children.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or deletion requests: <a href="mailto:ozdoganburak2@gmail.com">ozdoganburak2@gmail.com</a></p>
+  </section>
+
+  <section class="card" id="tr">
+    <h2>Özet</h2>
+    <p>Tellcut bir masaüstü fotoğraf, video ve ses düzenleyicisidir. <b>Hesap yoktur</b>; reklam ve izleme
+      yapılmaz. Dosyalarınız kendi bilgisayarınızda düzenlenir. Cihazınızdan yalnızca isteğe bağlı yapay zekâ asistanına
+      gönderdiğiniz istekler çıkar.</p>
+
+    <h2>Dosyalar ve düzenleme</h2>
+    <p>Açtığınız görsel, video, ses ve projeler bilgisayarınızda işlenir. Arka plan kaldırma ve nesne seçimi
+      <b>cihazınızda çalışan</b> yapay zekâ modelleriyle yapılır; bu görseller hiçbir yere yüklenmez.</p>
+
+    <h2>Bilgisayarınızda saklananlar</h2>
+    <p>Ayarlar (dil, klasörler, son projeler), anonim yapay zekâ oturum jetonu (Windows DPAPI ile şifreli) ve hata günlüğü
+      <code>%APPDATA%\MedyaDuzenleyici</code> klasöründe tutulur. Geçici çalışma dosyaları program kapanınca silinir.
+      Programı kaldırmak ya da bu klasörü silmek bunları da siler.</p>
+
+    <h2>Yapay zekâ asistanı</h2>
+    <p>Yapay zekâ asistanına bir istek yazdığınızda program sunucumuza (Supabase, Frankfurt, EU) şunları gönderir:
+      mesajınız, açık sohbetin son mesajları, açık projenin kısa teknik özeti (medya türü, boyut, süre, katman adları, zaman
+      çizelgesi) ve — yalnızca asistanın bakması gerektiğinde — önizlemenin küçültülmüş bir ekran görüntüsü. Sunucu bunu
+      yanıt üretmesi için yapay zekâ sağlayıcısı <b>DeepSeek</b>'e (sunucuları Çin'de) iletir ve yanıtı programa döndürür.
+      İstekleriniz reklam için kullanılmaz ve satılmaz. DeepSeek veriyi kendi gizlilik politikasına göre işler.</p>
+    <p>Günlük kullanım sınırını uygulamak için sunucu anonim bir oturum kimliği ve günlük istek sayısını tutar; isteklerinizin
+      içeriğini saklamaz. Yapay zekâ asistanını kullanmazsanız hiçbir şey gönderilmez.</p>
+
+    <h2>Çocuklar</h2>
+    <p>Program bilerek çocuklardan kişisel veri toplamaz.</p>
+
+    <h2>İletişim</h2>
+    <p>Sorular ve silme talepleri: <a href="mailto:ozdoganburak2@gmail.com">ozdoganburak2@gmail.com</a></p>
+  </section>
+</main>
+</body>
+</html>
